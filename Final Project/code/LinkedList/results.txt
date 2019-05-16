@@ -1,0 +1,420 @@
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |         1|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    2.6762|
+|contains       |    2.6930|
+|add            |    2.1466|
+|addFirst       |    0.0003|
+|addLast        |    5.9411|
+|removeValue    |    2.4408|
+|remove         |    2.0450|
+|removeFirst    |    0.0003|
+|removeLast     |    5.7793|
+|set            |    2.1432|
+|setFirst       |    0.0002|
+|setLast        |    5.7369|
+|get            |    2.5736|
+|getFirst       |    0.0001|
+|getLast        |    4.9291|
+|--------------------------|
+|Random         |    2.6681|
+|--------------------------|
+|TOTAL          |   41.7739|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |         2|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    1.3511|
+|contains       |    1.2936|
+|add            |    1.0783|
+|addFirst       |    0.0008|
+|addLast        |    2.9579|
+|removeValue    |    1.2554|
+|remove         |    1.0296|
+|removeFirst    |    0.0010|
+|removeLast     |    2.8767|
+|set            |    1.0916|
+|setFirst       |    0.0006|
+|setLast        |    2.9258|
+|get            |    1.2853|
+|getFirst       |    0.0005|
+|getLast        |    2.4554|
+|--------------------------|
+|Random         |    1.3369|
+|--------------------------|
+|TOTAL          |   20.9406|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |         4|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.6768|
+|contains       |    0.6919|
+|add            |    0.5797|
+|addFirst       |    0.0017|
+|addLast        |    1.5034|
+|removeValue    |    0.6269|
+|remove         |    0.5231|
+|removeFirst    |    0.0055|
+|removeLast     |    1.4683|
+|set            |    0.5642|
+|setFirst       |    0.0012|
+|setLast        |    1.4639|
+|get            |    0.6715|
+|getFirst       |    0.0009|
+|getLast        |    1.2302|
+|--------------------------|
+|Random         |    0.7101|
+|--------------------------|
+|TOTAL          |   10.7192|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |         8|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.3504|
+|contains       |    0.3429|
+|add            |    0.2957|
+|addFirst       |    0.0021|
+|addLast        |    0.7945|
+|removeValue    |    0.3331|
+|remove         |    0.2799|
+|removeFirst    |    0.0062|
+|removeLast     |    0.7614|
+|set            |    0.2841|
+|setFirst       |    0.0019|
+|setLast        |    0.7324|
+|get            |    0.3525|
+|getFirst       |    0.0016|
+|getLast        |    0.6159|
+|--------------------------|
+|Random         |    0.3678|
+|--------------------------|
+|TOTAL          |    5.5223|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |        16|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.1915|
+|contains       |    0.1847|
+|add            |    0.1538|
+|addFirst       |    0.0022|
+|addLast        |    0.3900|
+|removeValue    |    0.1811|
+|remove         |    0.1470|
+|removeFirst    |    0.0045|
+|removeLast     |    0.3889|
+|set            |    0.1546|
+|setFirst       |    0.0020|
+|setLast        |    0.3709|
+|get            |    0.1818|
+|getFirst       |    0.0016|
+|getLast        |    0.3117|
+|--------------------------|
+|Random         |    0.2102|
+|--------------------------|
+|TOTAL          |    2.8764|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |        32|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.1082|
+|contains       |    0.1088|
+|add            |    0.0863|
+|addFirst       |    0.0023|
+|addLast        |    0.2179|
+|removeValue    |    0.0971|
+|remove         |    0.0825|
+|removeFirst    |    0.0067|
+|removeLast     |    0.2112|
+|set            |    0.0894|
+|setFirst       |    0.0022|
+|setLast        |    0.1992|
+|get            |    0.0974|
+|getFirst       |    0.0018|
+|getLast        |    0.1602|
+|--------------------------|
+|Random         |    0.1118|
+|--------------------------|
+|TOTAL          |    1.5831|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation | Lock-Free|
+|Threads        |        64|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.1131|
+|contains       |    0.1031|
+|add            |    0.0962|
+|addFirst       |    0.0029|
+|addLast        |    0.2116|
+|removeValue    |    0.0988|
+|remove         |    0.0822|
+|removeFirst    |    0.0079|
+|removeLast     |    0.2103|
+|set            |    0.0877|
+|setFirst       |    0.0024|
+|setLast        |    0.2084|
+|get            |    0.0969|
+|getFirst       |    0.0022|
+|getLast        |    0.1797|
+|--------------------------|
+|Random         |    0.1024|
+|--------------------------|
+|TOTAL          |    1.6059|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |         1|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.3600|
+|contains       |    0.3650|
+|add            |    0.5344|
+|addFirst       |    0.0002|
+|addLast        |    1.2138|
+|removeValue    |    0.4452|
+|remove         |    0.5198|
+|removeFirst    |    0.0002|
+|removeLast     |    1.1663|
+|set            |    0.5434|
+|setFirst       |    0.0001|
+|setLast        |    1.1748|
+|get            |    0.4249|
+|getFirst       |    0.0001|
+|getLast        |    0.8241|
+|--------------------------|
+|Random         |    0.5242|
+|--------------------------|
+|TOTAL          |    8.0963|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |         2|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.1844|
+|contains       |    0.1847|
+|add            |    0.2727|
+|addFirst       |    0.0007|
+|addLast        |    0.6106|
+|removeValue    |    0.2351|
+|remove         |    0.2616|
+|removeFirst    |    0.0010|
+|removeLast     |    0.5795|
+|set            |    0.2735|
+|setFirst       |    0.0004|
+|setLast        |    0.5892|
+|get            |    0.2165|
+|getFirst       |    0.0005|
+|getLast        |    0.4132|
+|--------------------------|
+|Random         |    0.2663|
+|--------------------------|
+|TOTAL          |    4.0899|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |         4|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.0987|
+|contains       |    0.0943|
+|add            |    0.1450|
+|addFirst       |    0.0017|
+|addLast        |    0.3049|
+|removeValue    |    0.1207|
+|remove         |    0.1375|
+|removeFirst    |    0.0015|
+|removeLast     |    0.2965|
+|set            |    0.1388|
+|setFirst       |    0.0011|
+|setLast        |    0.2932|
+|get            |    0.1100|
+|getFirst       |    0.0009|
+|getLast        |    0.2071|
+|--------------------------|
+|Random         |    0.1340|
+|--------------------------|
+|TOTAL          |    2.0858|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |         8|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.0507|
+|contains       |    0.0483|
+|add            |    0.0802|
+|addFirst       |    0.0019|
+|addLast        |    0.1546|
+|removeValue    |    0.0640|
+|remove         |    0.0729|
+|removeFirst    |    0.0019|
+|removeLast     |    0.1496|
+|set            |    0.0757|
+|setFirst       |    0.0017|
+|setLast        |    0.1481|
+|get            |    0.0584|
+|getFirst       |    0.0012|
+|getLast        |    0.1116|
+|--------------------------|
+|Random         |    0.0755|
+|--------------------------|
+|TOTAL          |    1.0964|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |        16|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.0322|
+|contains       |    0.0254|
+|add            |    0.0413|
+|addFirst       |    0.0020|
+|addLast        |    0.0790|
+|removeValue    |    0.0344|
+|remove         |    0.0390|
+|removeFirst    |    0.0030|
+|removeLast     |    0.0799|
+|set            |    0.0402|
+|setFirst       |    0.0017|
+|setLast        |    0.0742|
+|get            |    0.0314|
+|getFirst       |    0.0012|
+|getLast        |    0.0531|
+|--------------------------|
+|Random         |    0.0419|
+|--------------------------|
+|TOTAL          |    0.5798|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |        32|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.0286|
+|contains       |    0.0160|
+|add            |    0.0275|
+|addFirst       |    0.0023|
+|addLast        |    0.0454|
+|removeValue    |    0.0216|
+|remove         |    0.0247|
+|removeFirst    |    0.0054|
+|removeLast     |    0.0467|
+|set            |    0.0228|
+|setFirst       |    0.0020|
+|setLast        |    0.0400|
+|get            |    0.0176|
+|getFirst       |    0.0015|
+|getLast        |    0.0295|
+|--------------------------|
+|Random         |    0.0266|
+|--------------------------|
+|TOTAL          |    0.3582|
+============================
+
+============================
+|           RESULTS        |
+============================
+|Implementation |Lock-Based|
+|Threads        |        64|
+|Repetitions    |      1000|
+|--------------------------|
+|OPERATION      |  TIME (s)|
+|--------------------------|
+|indexOf        |    0.0310|
+|contains       |    0.0186|
+|add            |    0.0353|
+|addFirst       |    0.0024|
+|addLast        |    0.0546|
+|removeValue    |    0.0235|
+|remove         |    0.0252|
+|removeFirst    |    0.0068|
+|removeLast     |    0.0463|
+|set            |    0.0234|
+|setFirst       |    0.0021|
+|setLast        |    0.0506|
+|get            |    0.0190|
+|getFirst       |    0.0017|
+|getLast        |    0.0362|
+|--------------------------|
+|Random         |    0.0245|
+|--------------------------|
+|TOTAL          |    0.4011|
+============================
+
